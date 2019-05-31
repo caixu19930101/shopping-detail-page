@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%= require('html-loader!./layout/head-common.html')  %>
+        <title><%= htmlWebpackPlugin.options.title%> - Shopping</title>
+    </head>
+    <body>
+        <script type="text/jscript" src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>"
+        <%= require('html-loader!./layout/nav.html')  %>
+
+        <div class="crumb">
+            <div class="w">
+                <div class="crumb-con">
+                    <a class="link" href="./index.html">Shopping-caRT</a>
+                    <span>></span>
+                    <span class="link-text"><%= htmlWebpackPlugin.options.title%></span>
+                </div>
+            </div>
+        </div>
+        <div class="page-wrap w">
+
+    </body>
+</html>
