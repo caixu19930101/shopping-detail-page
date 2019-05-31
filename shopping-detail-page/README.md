@@ -1,5 +1,5 @@
-1. npm install Install all dependencies
-2. npm start   webpack all files and run the project
+1. 'npm install' Install all dependencies
+2. 'npm start'   webpack all files and run the project
 3. Open the Chrome contact http://localhost:8088/dist/view/index.html
 
 Problem
